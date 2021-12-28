@@ -1,0 +1,10 @@
+var inum = 10;
+var strname = 'Hello World';
+var bdata = true;
+var anyDataType = 200.2;
+console.log('Number is ' + inum);
+console.log('String is ' + strname);
+console.log('Boolean is ' + bdata);
+console.log('Any data type initially is ' + anyDataType);
+anyDataType = 'text is changed';
+console.log('Any data type now is ' + anyDataType);
